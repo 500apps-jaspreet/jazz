@@ -31,17 +31,18 @@
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
--<script>
-        (async (d, i, a, l, e, r) => {
-        e = i.createElement("script");
-        e.src = a+l;
-        r = i.getElementsByTagName("head")[0];
-        e.onload = async () => {
-          let data = await d.wg.init("pbxplus", 'qa', '4219', '11375', { width: "350px", height: "500px" }, "left-center", "DIV-ID",'9771025822828276','949');
-        };
-       r.appendChild(e);
-      })(window, document, 'https://infinity-public-js.500apps.com/qa/pbxplus/', "dialer.min.js");
-      </script>
+<script>
+	 (function(c, o, n, v, r, p) {
+      p = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = n + v;
+      r.onload = () => {
+          c._we.init('442965525656919','qa','onboarding')
+    };
+    p.appendChild(r);
+    })(window, document, 'https://infinity-public-js.500apps.com/', 'onboarding.min.js');
+</script>
 
 	
 </head>
